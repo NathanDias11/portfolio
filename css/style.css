@@ -29,10 +29,12 @@ body{
 }
 .nav-link
 {
-  font-size: 1rem;
-  font-family: 'Alkatra', cursive;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
-
+.name{
+  font-size: 10vh;
+}
 .containerName{
     height: 100vh;
     width: 100%; 
@@ -52,7 +54,7 @@ body{
   height: 15vh;
   display: flex;
   color: silver;
-  font-size: 8vh;
+  font-size: 7vh;
   padding: 2vh 0vw ;
 }
 
@@ -61,7 +63,7 @@ body{
     list-style: none;
     color: white  ;
     position: relative;
-    font-size: 8vh;
+    font-size: 7vh;
     top: 0;
     overflow: hidden;
     background: transparent;
@@ -140,26 +142,31 @@ body{
   }
 
   .fa-instagram:hover{
+    text-decoration: none;
     color: white;
   }
   
   .fa-twitter:hover{
+    text-decoration: none;
     color: white;
   }
 
   
 
 .fa-linkedin-in:hover{
+  text-decoration: none;
   color: white;
 }
 
 
 
 .fa-github:hover{
+  text-decoration: none;
   color: white;
 }
 
 .fa-envelope:hover{
+  text-decoration: none;
   color: white;
 }
 #about{
@@ -681,6 +688,7 @@ a#logo {
   margin-top: 30px;
 }
 .facts-list .item {
+  color:#fff;
   overflow: hidden;
   text-align:center;
   border-radius: 10px;
@@ -1050,6 +1058,14 @@ textarea.form-control {
   position: absolute;
   z-index: 99;
   width: 82%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-3 {
+  position: absolute;
+  z-index: 99;
+  width: 90%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
